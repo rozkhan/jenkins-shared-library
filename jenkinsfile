@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
+echo "write jenkins file in git"
                 script{
                     hello()
                 }
